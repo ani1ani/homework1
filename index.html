@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="myForm">
+      <label for="firstName">სახელი:</label>
+      <input type="text" id="firstName" maxlength="50" required /><br /><br />
+
+      <label for="lastName">გვარი:</label>
+      <input type="text" id="lastName" maxlength="50" required /><br /><br />
+
+      <label for="age">ასაკი:</label>
+      <input type="number" id="age" required /><br /><br />
+
+      <label>სამუშაო სტატუსი:</label>
+      <input type="radio" name="employmentStatus" value="employed" required />დასაქმებულია
+      <input type="radio" name="employmentStatus" value="unemployed" required />
+      დაუსქამებელია<br /><br />
+
+      <label for="password">პაროლი:</label>
+      <input type="password" id="password" required /><br /><br />
+
+      <label for="repeatPassword">გაიმეორეთ პაროლი:</label>
+      <input type="password" id="repeatPassword" required /><br /><br />
+
+      <label for="email">იმეილი:</label>
+      <input type="email" id="email" required /><br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
